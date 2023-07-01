@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(156, 156, 156);
+    color: rgb(247, 242, 242);
+    font-family: 'Poppins', sans-serif;
+}
+
+.left{
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(50, 50, 52);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(249, 243, 243);
+}
+
+.my{
+    font-size: 2.5em;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(56, 55, 55);
+}
+
+.Container{
+    background-color: rgba(120, 115, 115, 0.692);
+    margin: 25px 50px;
+}
+
+.Container h1{
+    color: rgb(40, 37, 37);
+    align-items: center;
+}
+
+.first {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    margin: 20px 20px;
+    padding: 2px;
+}
+
+.second {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    margin: 20px 20px;
+    padding: 2px;
+}
+
+.skill img{
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms ease-out;
+}
+
+hr{
+    display: block;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    padding: 2px;
+    border: none;
+    background-color: #000000;
+}
+
+.skill{
+    margin: 10px 60px; 
+    align-items: center;
+    padding: 10;
+}
+
+.content {
+    font-size: 1.30em;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+

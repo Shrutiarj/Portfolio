@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(156, 156, 156);
+    color: rgb(247, 242, 242);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(50, 50, 52);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(249, 243, 243);
+}
+
+
+.left {
+    font-size: 2.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 24px;
+}
+
+.firstSection div {
+    width: 40%;
+
+}
+
+.leftSection {
+    color: rgb(31, 31, 35);
+    font-size: 2.5rem;
+    margin: 90px 40px;
+    font-weight: 500;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 70px;
+}
+
+.name {
+    color: rgb(47, 42, 70);
+}
+
+#element {
+    color: rgb(17, 17, 18);
+}
